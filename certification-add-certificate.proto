@@ -3,7 +3,7 @@ syntax = "proto3";
 package health.centiva.registry.model;
 
 option java_package = "health.centiva.registry.certification";
-option java_outer_classname = "CertificateProtos";
+option java_outer_classname = "AddCertificateProtos";
 
 message AddCertificateRequest {
   bytes publicKey = 1;

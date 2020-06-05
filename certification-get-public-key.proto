@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package health.centiva.registry.model;
+
+option java_package = "health.centiva.registry.certification";
+option java_outer_classname = "GetPublicKeyProtos";
+
+message PublicKeyResponse {
+  bytes publicKey = 1;
+}

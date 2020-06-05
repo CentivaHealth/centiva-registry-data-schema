@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package health.centiva.registry.model;
+
+option java_package = "health.centiva.registry.provider";
+option java_outer_classname = "VerifyInfoHashProtos";
+import "google/protobuf/timestamp.proto";
+
+message VerifyInfoHashRequest {
+  bytes infoHash = 1;
+  string labId = 2;
+  string labName = 3;
+}
