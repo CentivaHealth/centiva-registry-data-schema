@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package health.centiva.registry.model;
+
+option java_package = "health.centiva.registry.certification";
+option java_outer_classname = "CertificateProtos";
+
+message AddCertificateRequest {
+  bytes publicKey = 1;
+  bytes infoHash = 2;
+}
+
+message CertificateResponse {
+  bytes signature = 1;
+  string transactionId = 2;
+}
