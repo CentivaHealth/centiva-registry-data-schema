@@ -14,3 +14,4 @@ message CertificateResponse {
   bytes signature = 1;
   string transactionId = 2;
 }
+
