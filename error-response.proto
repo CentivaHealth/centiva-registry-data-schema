@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package health.centiva.registry.model;
+
+option java_package = "health.centiva.registry";
+option java_outer_classname = "ErrorResponseProtos";
+
+message ErrorResponse {
+  string message = 1;
+}
