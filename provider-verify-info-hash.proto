@@ -10,3 +10,7 @@ message VerifyInfoHashRequest {
   string labId = 2;
   string labName = 3;
 }
+
+message VerifyInfoHashResponse {
+  bool exists = 1;
+}
