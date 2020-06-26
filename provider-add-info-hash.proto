@@ -12,5 +12,5 @@ message AddInfoHashRequest {
   string labName = 3;
   string version = 4;
   string testDate = 5;
-  sint32 testResult = 6;
+  string testResult = 6;
 }
