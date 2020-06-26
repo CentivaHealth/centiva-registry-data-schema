@@ -10,5 +10,7 @@ message AddInfoHashRequest {
   bytes infoHash = 1;
   string labId = 2;
   string labName = 3;
-  google.protobuf.Timestamp creationDate = 4;
+  string version = 4;
+  string testDate = 5;
+  sint32 testResult = 6;
 }
