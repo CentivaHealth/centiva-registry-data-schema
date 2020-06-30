@@ -6,11 +6,11 @@ option java_package = "health.centiva.registry.certification";
 option java_outer_classname = "AddCertificateProtos";
 
 message AddCertificateRequest {
-  bytes publicKey = 1;
-  bytes infoHash = 2;
+  bytes public_key = 1;
+  bytes info_hash = 2;
 }
 
 message CertificateResponse {
   bytes signature = 1;
-  string transactionId = 2;
+  string transaction_id = 2;
 }
