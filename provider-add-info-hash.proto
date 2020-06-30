@@ -7,10 +7,10 @@ option java_outer_classname = "AddInfoHashProtos";
 import "google/protobuf/timestamp.proto";
 
 message AddInfoHashRequest {
-  bytes infoHash = 1;
-  string labId = 2;
-  string labName = 3;
+  bytes info_hash = 1;
+  string lab_id = 2;
+  string lab_name = 3;
   string version = 4;
-  string testDate = 5;
-  string testResult = 6;
+  string test_date = 5;
+  string test_result = 6;
 }
