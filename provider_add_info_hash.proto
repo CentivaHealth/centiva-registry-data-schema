@@ -4,13 +4,11 @@ package health.centiva.registry.model;
 
 option java_package = "health.centiva.registry.provider";
 option java_outer_classname = "AddInfoHashProtos";
-import "google/protobuf/timestamp.proto";
 
 message AddInfoHashRequest {
   bytes info_hash = 1;
-  string lab_id = 2;
-  string lab_name = 3;
-  string version = 4;
-  string test_date = 5;
-  string test_result = 6;
+  string test_provider = 2;
+  string version = 3;
+  string test_date = 4;
+  string test_result = 5;
 }
