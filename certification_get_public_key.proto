@@ -6,5 +6,5 @@ option java_package = "health.centiva.registry.certification";
 option java_outer_classname = "GetPublicKeyProtos";
 
 message PublicKeyResponse {
-  bytes public_key = 1;
+  string public_key = 1;
 }
