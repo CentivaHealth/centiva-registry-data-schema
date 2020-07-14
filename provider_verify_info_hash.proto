@@ -6,7 +6,7 @@ option java_package = "health.centiva.registry.provider";
 option java_outer_classname = "VerifyInfoHashProtos";
 
 message VerifyInfoHashRequest {
-  bytes info_hash = 1;
+  string info_hash = 1;
   string lab_id = 2;
   string lab_name = 3;
 }
