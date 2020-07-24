@@ -12,5 +12,5 @@ message AddCertificateRequest {
 
 message CertificateResponse {
   string signature = 1;
-  string transaction_id = 2;
+  string transaction_hash = 2;
 }
