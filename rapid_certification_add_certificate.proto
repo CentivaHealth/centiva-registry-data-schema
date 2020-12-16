@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package health.centiva.registry.model;
+
+option java_package = "health.centiva.registry.rapid.certification";
+option java_outer_classname = "AddCertificateProtos";
+
+message AddCertificateRequest {
+  string info_hash = 1;
+  string version = 2;
+  string test_date = 3;
+  string test_result = 4;
+}
