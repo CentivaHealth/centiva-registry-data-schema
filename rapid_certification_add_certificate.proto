@@ -5,7 +5,7 @@ package health.centiva.registry.model;
 option java_package = "health.centiva.registry.rapid.certification";
 option java_outer_classname = "AddCertificateProtos";
 
-message AddCertificateRequest {
+message AddCertificateWithStatsRequest {
   string info_hash = 1;
   string version = 2;
   string test_date = 3;
