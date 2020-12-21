@@ -2,8 +2,8 @@ syntax = "proto3";
 
 package health.centiva.registry.model;
 
-option java_package = "health.centiva.registry.rapid.certification";
-option java_outer_classname = "AddCertificateProtos";
+option java_package = "health.centiva.registry.certification";
+option java_outer_classname = "AddPocCertificateProtos";
 
 message AddPocCertificateRequest {
   string info_hash = 1;
